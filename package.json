@@ -1,0 +1,26 @@
+{
+  "name": "sumo-test-proj-12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "tsc",
+    "start": "node index.js",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fleon/sumo-test-proj-12.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fleon/sumo-test-proj-12/issues"
+  },
+  "homepage": "https://github.com/fleon/sumo-test-proj-12#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "firebase-admin": "^5.5.1",
+    "pg": "^7.4.0"
+  }
+}

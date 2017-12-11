@@ -1,0 +1,24 @@
+<html>
+  <head>
+<script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCjwd7NKiQtQGgIOnjxGJgYSyX9ARIVePI",
+    authDomain: "testproj-44bd1.firebaseapp.com",
+    databaseURL: "https://testproj-44bd1.firebaseio.com",
+    projectId: "testproj-44bd1",
+    storageBucket: "testproj-44bd1.appspot.com",
+    messagingSenderId: "99264165857"
+  };
+  firebase.initializeApp(config);
+
+
+</script>
+<script src="js/client.js"></script>
+  </head>
+  <body>
+    <a href="#" onclick="loginWithGoogle()">Login with Google</a>
+<a href="#" onclick="fetchUsers()">Fetch users</a>
+  </body>
+</html>
